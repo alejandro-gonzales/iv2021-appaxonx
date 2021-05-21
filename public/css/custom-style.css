@@ -1,0 +1,31 @@
+.w-5{
+    width: 24px;
+}
+.h-5{
+    height: 24px;
+}
+.text-sm{
+    font-size: 0.8rem;
+}
+.text-gray-700{
+    font-weight: 700;
+}
+.leading-5{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+.bg-gray-100{
+    background-color: #007bff;
+}
+.rounded-md{
+    border-radius: 5px;
+}
+.border-gray-300{
+    border-color: #aaa !important;
+}
+.hidden{
+    display: none;
+}
+.m-l-60{
+    margin-left: 60% !important;
+}
