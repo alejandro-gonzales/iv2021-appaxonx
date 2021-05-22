@@ -24,9 +24,9 @@
   <nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
     <div class="scrollbar-inner">
       <!-- Brand -->
-      <div class="sidenav-header  align-items-center">
-        <a class="navbar-brand" href="javascript:void(0)">
-          <img src="assets/img/brand/blue.png" class="navbar-brand-img" alt="...">
+      <div class="sidenav-header align-items-center">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/brand/blue.png" class="navbar-brand-img" alt="">
         </a>
       </div>
       <div class="navbar-inner">
@@ -41,15 +41,15 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="examples/icons.html">
-                <i class="ni ni-planet text-orange"></i>
-                <span class="nav-link-text">Icons</span>
+              <a class="nav-link" href="{{route('persona.index')}}">
+                <i class="ni ni-single-02 text-primary"></i>
+                <span class="nav-link-text">Personas</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="examples/profile.html">
-                <i class="ni ni-single-02 text-yellow"></i>
-                <span class="nav-link-text">Profile</span>
+              <a class="nav-link" href="examples/icons.html">
+                <i class="ni ni-planet text-orange"></i>
+                <span class="nav-link-text">Icons</span>
               </a>
             </li>
             <li class="nav-item">
@@ -103,7 +103,7 @@
                 <div class="input-group-prepend">
                   <span class="input-group-text"><i class="fas fa-search"></i></span>
                 </div>
-                <input class="form-control" placeholder="Search" type="text">
+                <input class="form-control" placeholder="Buscar" type="text">
               </div>
             </div>
             <button type="button" class="close" data-action="search-close" data-target="#navbar-search-main" aria-label="Close">
@@ -127,11 +127,11 @@
                 <i class="ni ni-zoom-split-in"></i>
               </a>
             </li>
+            @yield('content-header')
             <li class="nav-item dropdown">
               <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="ni ni-bell-55"></i>
               </a>
-              
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -160,9 +160,9 @@
             </div>
           </div>
         </div>
-      </footer>
+      </footer>-->
     </div>
-  </div>-->
+  </div>
   <!-- Argon Scripts -->
   <!-- Core -->
   <script src="{{asset('assets/vendor/jquery/dist/jquery.min.js')}}"></script>
