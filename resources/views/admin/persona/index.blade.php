@@ -5,6 +5,16 @@
     <div class="row">
         <div class="col">
             <div class="card">
+            @section('content-header')
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="{{route('persona.create')}}">
+                  <button class="btn btn-icon btn-default" type="button">
+                    <span class="btn-inner--icon"><i class="ni ni-single-02"></i></span>
+                    <span class="btn-inner--text">Registrar</span>
+                  </button>
+              </a>
+            </li>
+            @endSection
                 <div class="table-responsive">
                     <table class="table align-items-center table-flush">
                         <thead class="thead-light text-center">

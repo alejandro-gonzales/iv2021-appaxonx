@@ -18,7 +18,8 @@ Route::get('/', function () {
     return view('template/main/index');
 });
 
-Route::get('/persona', [PersonaController::class, 'index']);
+//Route::get('/persona', [PersonaController::class, 'index']);
+Route::resource('persona', PersonaController::class);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
